@@ -17,4 +17,4 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
           TIME_RANGE: last_30_days
-          IGNORED_LANGUAGES: Binary YAML JSON TOML INI
+          IGNORED_LANGUAGES: Binary
