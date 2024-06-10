@@ -17,7 +17,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
           TIME_RANGE: last_30_days
-          IGNORED_LANGUAGES: Binary
+          IGNORED_LANGUAGES: Binary gitignore
           SHOW_TITLE: true
           SHOW_TIME: true
           SHOW_TOTAL: true
