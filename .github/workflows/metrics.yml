@@ -53,3 +53,8 @@ jobs:
           plugin_followup_sections: repositories
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_days: 30
+          plugin_wakatime_languages_ignored: Binary, gitignore
+          plugin_wakatime_repositories_visiblity: public
