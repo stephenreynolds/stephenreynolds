@@ -1,5 +1,3 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1000&color=B00127&random=true&width=435&lines=Stephen+Reynolds)](https://git.io/typing-svg)
-
 ### Monthly development breakdown
 <!--START_SECTION:waka-->
 
