@@ -1,4 +1,4 @@
-name: bigass metrics
+name: Metrics
 on:
   schedule:
     - cron: "0 12 * * *"
