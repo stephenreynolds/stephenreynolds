@@ -19,3 +19,34 @@ HTML         2 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ```
 
 <!--END_SECTION:waka-->
+
+<details>
+<summary>more</summary>
+<table width="2000">
+<tr>
+<td width="2000"><img align="center" width="100%" alt="🦑" src="/bigass.svg"></td>
+</tr>
+</table>
+
+<img align="right" width="45%" alt="🦑" src="/pagespeed.svg">
+
+<img align="left" width="45%" alt="🦑" src="/isocalendar.svg">
+<img align="right" width="45%" alt="🦑" src="/lines.svg">
+<img align="right" width="45%" alt="🦑" src="/icons.svg">
+
+<img align="left" width="50%" alt="🦑" src="/achievements.svg">
+<img align="right" width="45%" alt="🦑" src="/stars.svg"> -->
+
+<table>
+<tr>
+<td><img align="" width="" alt="🦑" src="/bottom.svg"></td>
+</tr>
+</table>
+
+<table width="2000">
+<tr>
+<td width="2000"><img src="https://github-trophies.vercel.app/?username=stephenreynolds&rank=SECRET,SSS,SS,S,AAA,AA&row=2&column=9&theme=gruvbox"></td>
+</tr>
+</table>
+
+</details>
