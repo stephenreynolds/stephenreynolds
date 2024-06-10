@@ -1,21 +1,21 @@
 <table width="2000">
 <tr>
-<td width="2000"><img align="center" width="100%" alt="🦑" src="/big.svg"></td>
+<td width="2000"><img align="center" width="100%" src="/big.svg"></td>
 </tr>
 </table>
 
-<img align="right" width="45%" alt="🦑" src="/pagespeed.svg">
+<img align="right" width="45%" src="/pagespeed.svg">
 
-<img align="left" width="45%" alt="🦑" src="/isocalendar.svg">
-<img align="right" width="45%" alt="🦑" src="/lines.svg">
-<img align="right" width="45%" alt="🦑" src="/icons.svg">
+<img align="left" width="45%" src="/isocalendar.svg">
+<img align="right" width="45%" src="/lines.svg">
+<img align="right" width="45%" src="/icons.svg">
 
-<img align="left" width="50%" alt="🦑" src="/achievements.svg">
-<img align="right" width="45%" alt="🦑" src="/stars.svg"> -->
+<img align="left" width="50%" src="/achievements.svg">
+<img align="right" width="45%" src="/stars.svg"> -->
 
 <table>
 <tr>
-<td><img align="" width="" alt="🦑" src="/bottom.svg"></td>
+<td><img align="" width="" src="/bottom.svg"></td>
 </tr>
 </table>
 
