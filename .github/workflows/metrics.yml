@@ -57,4 +57,4 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_days: 30
           plugin_wakatime_languages_ignored: Binary, gitignore
-          plugin_wakatime_repositories_visiblity: public
+          plugin_wakatime_repositories_visibility: public
