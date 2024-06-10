@@ -1,6 +1,5 @@
 <img align="center" width="100%" src="/big.svg">
 
-### Monthly development breakdown
 <!--START_SECTION:waka-->
 
 ```rust
