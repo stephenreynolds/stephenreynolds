@@ -20,7 +20,6 @@ HTML         2 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 <!--END_SECTION:waka-->
 
-<summary>more</summary>
 <table width="2000">
 <tr>
 <td width="2000"><img align="center" width="100%" alt="🦑" src="/bigass.svg"></td>
