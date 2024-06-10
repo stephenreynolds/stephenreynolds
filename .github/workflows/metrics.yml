@@ -49,14 +49,6 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_stars: yes
           plugin_stars_limit: 8
-
-      - name: bottom
-        uses: lowlighter/metrics@latest
-        with:
-          filename: bottom.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
           plugin_followup: yes
           plugin_followup_sections: repositories
           plugin_isocalendar: yes
