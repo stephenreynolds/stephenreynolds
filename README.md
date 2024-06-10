@@ -20,7 +20,6 @@ HTML         2 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 <!--END_SECTION:waka-->
 
-<details>
 <summary>more</summary>
 <table width="2000">
 <tr>
@@ -48,5 +47,3 @@ HTML         2 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <td width="2000"><img src="https://github-trophies.vercel.app/?username=stephenreynolds&rank=SECRET,SSS,SS,S,AAA,AA&row=2&column=9&theme=gruvbox"></td>
 </tr>
 </table>
-
-</details>
