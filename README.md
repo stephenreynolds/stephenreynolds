@@ -1,3 +1,6 @@
+ ![visitors](https://visitor-badge.glitch.me/badge?page_id=stephenreynolds.stephenreynolds&left_color=green&right_color=red)
+
+### Monthly development breakdown
 <!--START_SECTION:waka-->
 
 ```rust
