@@ -1,29 +1,4 @@
-<table width="2000">
-<tr>
-<td width="2000"><img align="center" width="100%" src="/big.svg"></td>
-</tr>
-</table>
-
-<img align="right" width="45%" src="/pagespeed.svg">
-
-<img align="left" width="45%" src="/isocalendar.svg">
-<img align="right" width="45%" src="/lines.svg">
-<img align="right" width="45%" src="/icons.svg">
-
-<img align="left" width="50%" src="/achievements.svg">
-<img align="right" width="45%" src="/stars.svg"> -->
-
-<table>
-<tr>
-<td><img align="" width="" src="/bottom.svg"></td>
-</tr>
-</table>
-
-<table width="2000">
-<tr>
-<td width="2000"><img src="https://github-trophies.vercel.app/?username=stephenreynolds&rank=SECRET,SSS,SS,S,AAA,AA&row=2&column=9&theme=gruvbox"></td>
-</tr>
-</table>
+<img align="center" width="100%" src="/big.svg">
 
 ### Monthly development breakdown
 <!--START_SECTION:waka-->
