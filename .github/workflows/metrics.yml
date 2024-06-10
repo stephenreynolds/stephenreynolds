@@ -15,21 +15,14 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: general.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories, metadata
-          base_indepth: yes
-          config_order: base.header, isocalendar
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
-
-      - name: Languages
+        
+      - name: General
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: languages.svg
+          filename: general.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_order: languages, wakatime
           output_action: gist
