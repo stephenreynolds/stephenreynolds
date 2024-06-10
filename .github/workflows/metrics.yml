@@ -17,7 +17,7 @@ jobs:
         with:
           filename: general.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, repositories, metadata, languages, wakatime, habits
           base_indepth: yes
           config_order: languages, wakatime
           output_action: gist
@@ -31,6 +31,11 @@ jobs:
           plugin_wakatime_days: 30
           plugin_wakatime_languages_ignored: Binary, gitignore
           plugin_wakatime_repositories_visibility: public
+          plugin_habits: yes
+          plugin_habits_from: 1000
+          plugin_habits_days: 30
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
 
       - name: Starred Topics
         if: ${{ success() || failure() }}
