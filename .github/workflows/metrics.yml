@@ -32,6 +32,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           base_indepth: yes
+          config_order: languages, wakatime
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_languages: yes
