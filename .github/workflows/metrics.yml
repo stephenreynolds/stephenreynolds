@@ -17,9 +17,9 @@ jobs:
         with:
           filename: left.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header
+          base: header, activity, community, metadata
           base_indepth: yes
-          config_order: base.header, isocalendar, activity, community, metadata
+          config_order: base.header, isocalendar
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_isocalendar: yes
@@ -48,4 +48,4 @@ jobs:
           plugin_habits_from: 1000
           plugin_habits_days: 30
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
+          plugin_habits_charts_type: classic
