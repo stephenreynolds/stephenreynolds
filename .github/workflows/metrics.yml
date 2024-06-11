@@ -20,6 +20,7 @@ jobs:
           base: header, activity, community, metadata
           base_indepth: yes
           config_order: base.header, base.activity, base.community, isocalendar, habits, base.metadata
+          config_timezone: America/Detroit
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_isocalendar: yes
@@ -38,6 +39,7 @@ jobs:
           base: ""
           base_indepth: yes
           config_order: languages, wakatime
+          config_timezone: America/Detroit
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_languages: yes
