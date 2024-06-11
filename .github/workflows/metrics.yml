@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
           base_indepth: yes
-          config_order: base.header, activity, isocalendar
+          config_order: base.header, isocalendar, activity, community, metadata
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_isocalendar: yes
@@ -30,12 +30,11 @@ jobs:
         with:
           filename: right.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header
+          base: ""
           base_indepth: yes
           config_order: languages, habits, wakatime
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
-          plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_sections: most-used, recently-used
