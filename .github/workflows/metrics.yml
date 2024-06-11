@@ -19,10 +19,15 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, metadata
           base_indepth: yes
-          config_order: base.header, isocalendar
+          config_order: base.header, isocalendar, habits
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_isocalendar: yes
+          plugin_habits: yes
+          plugin_habits_from: 1000
+          plugin_habits_days: 30
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
       
       - name: Right
         if: ${{ success() || failure() }}
@@ -32,7 +37,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           base_indepth: yes
-          config_order: languages, habits, wakatime
+          config_order: languages, wakatime
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_languages: yes
@@ -44,8 +49,3 @@ jobs:
           plugin_wakatime_days: 30
           plugin_wakatime_languages_ignored: Binary, gitignore
           plugin_wakatime_repositories_visibility: public
-          plugin_habits: yes
-          plugin_habits_from: 1000
-          plugin_habits_days: 30
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
