@@ -17,7 +17,7 @@ jobs:
         with:
           filename: left.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, metadata
+          base: header, activity, community
           base_indepth: yes
           config_order: base.header, base.activity, base.community, isocalendar, habits
           config_timezone: America/Detroit
