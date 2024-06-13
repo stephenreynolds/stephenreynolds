@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, metadata
           base_indepth: yes
-          config_order: base.header, base.activity, base.community, isocalendar, habits, base.metadata
+          config_order: base.header, base.activity, base.community, isocalendar, habits
           config_timezone: America/Detroit
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
@@ -36,9 +36,9 @@ jobs:
         with:
           filename: right.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          base: metadata
           base_indepth: yes
-          config_order: languages, wakatime
+          config_order: languages, wakatime, base.metadata
           config_timezone: America/Detroit
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
