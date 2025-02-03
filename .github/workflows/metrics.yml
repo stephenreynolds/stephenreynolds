@@ -47,8 +47,3 @@ jobs:
           plugin_languages_sections: most-used, recently-used
           plugin_languages_indepth: yes
           plugin_languages_ignored: Hack gitignore
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-          plugin_wakatime_days: 30
-          plugin_wakatime_languages_ignored: Binary, gitignore
-          plugin_wakatime_repositories_visibility: public
